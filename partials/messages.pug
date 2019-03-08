@@ -1,0 +1,11 @@
+if typeof errors != 'undefined'
+    ul
+        each error in errors
+            li= error.msg
+else
+
+if success_msg 
+    p.green= success_msg
+
+if error_msg
+    p.red= error_msg

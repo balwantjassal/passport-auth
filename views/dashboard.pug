@@ -1,0 +1,7 @@
+extends layout.pug
+block content
+    div(class='container')
+            h2  Dashboard
+            p   Welcome to MySite Mr. #{user.name}  #{sess.appName}
+            | 
+            a(href='/user/logout') Logout 
